@@ -10,7 +10,7 @@ const sports = [
   { icon: StretchHorizontal, label: 'Mobility' },
 ];
 
-const MULTI_PHOTO = '/photos/multi-sport.jpg';
+const MULTI_PHOTO = `${import.meta.env.BASE_URL}photos/multi-sport.jpg`;
 
 export function MultiSport() {
   return (
