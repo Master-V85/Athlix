@@ -11,7 +11,7 @@ const steps = [
   { icon: RefreshCw, title: 'Adapt', desc: 'Every session updates your future plan. The loop runs continuously — your training never stops learning.' },
 ];
 
-const LOOP_PHOTO = '/photos/loop.jpg';
+const LOOP_PHOTO = `${import.meta.env.BASE_URL}photos/loop.jpg`;
 
 export function AthlixLoop() {
   const [ref, inView] = useInView<HTMLDivElement>({ threshold: 0.2 });
