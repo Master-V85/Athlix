@@ -3,7 +3,7 @@ import { SectionHeading } from '@/components/ui/SectionHeading';
 import { Reveal } from '@/components/ui/Reveal';
 import { Button } from '@/components/ui/Button';
 
-const COACH_PHOTO = '/photos/daily-coach.jpg';
+const COACH_PHOTO = `${import.meta.env.BASE_URL}photos/daily-coach.jpg`;
 
 export function DailyCoach() {
   return (
