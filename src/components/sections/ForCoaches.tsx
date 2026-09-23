@@ -4,6 +4,8 @@ import { Reveal } from '@/components/ui/Reveal';
 import { Button } from '@/components/ui/Button';
 import { Sparkline } from '@/components/ui/Charts';
 
+const COACH_PHOTO = `${import.meta.env.BASE_URL}photos/for-coaches.jpg`;
+
 const athletes = [
   {
     name: 'Alex Morgan',
