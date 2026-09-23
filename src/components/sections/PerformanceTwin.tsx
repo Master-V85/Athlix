@@ -31,7 +31,7 @@ const categories = [
   },
 ];
 
-const TWIN_PHOTO = '/photos/twin.jpg';
+const TWIN_PHOTO = `${import.meta.env.BASE_URL}photos/twin.jpg`;
 
 export function PerformanceTwin() {
   return (
