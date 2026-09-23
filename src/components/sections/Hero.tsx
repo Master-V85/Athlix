@@ -5,7 +5,7 @@ import { HeroDashboard } from './HeroDashboard';
 
 const integrations = ['Garmin', 'Apple Health', 'WHOOP', 'Oura', 'Strava'];
 
-const HERO_BG = '/photos/hero.jpg';
+const HERO_BG = `${import.meta.env.BASE_URL}photos/hero.jpg`;
 
 export function Hero() {
   return (
