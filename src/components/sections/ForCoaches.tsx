@@ -4,7 +4,6 @@ import { Reveal } from '@/components/ui/Reveal';
 import { Button } from '@/components/ui/Button';
 import { Sparkline } from '@/components/ui/Charts';
 
-const COACH_PHOTO = `${import.meta.env.BASE_URL}photos/for-coaches.jpg`;
 
 const athletes = [
   {
@@ -38,7 +37,7 @@ const coachActions = [
   { icon: BookOpen, label: 'Create methodology' },
 ];
 
-const COACH_PHOTO = '/photos/for-coaches.jpg';
+const COACH_PHOTO = `${import.meta.env.BASE_URL}photos/for-coaches.jpg`;
 
 export function ForCoaches() {
   return (
