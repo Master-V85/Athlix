@@ -5,7 +5,7 @@ import { navigate } from '@/hooks/useRouter';
 import { Logo } from '@/components/ui/Logo';
 import { Sparkline } from '@/components/ui/Charts';
 
-const LOGIN_BG = '/photos/login.jpg';
+const LOGIN_BG = `${import.meta.env.BASE_URL}photos/login.jpg`;
 
 export function LoginPage() {
   const { signIn, signUp } = useAuth();
